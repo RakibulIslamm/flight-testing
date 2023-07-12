@@ -28,6 +28,7 @@ const SearchingForms = ({ setFlightData }: propsInterface) => {
 			// console.log(flightData)
 		}
 		getData();
+	// eslint-disable-next-line react-hooks/exhaustive-deps
 	},[])
 
 
