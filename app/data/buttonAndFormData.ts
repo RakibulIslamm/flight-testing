@@ -1,0 +1,502 @@
+import { ButtonFormDataInterface } from "../interfaces/ButtonFormDataInterface";
+
+export const buttonAndFormData: ButtonFormDataInterface[] = [
+	{
+		id: 1,
+		eventTitle: "OUT",
+		formFields: [
+			{
+				type: "text",
+				state: "flight_number",
+				value: "",
+				placeholder: "Flight number",
+				required: true,
+			},
+			{
+				type: "date",
+				state: "departure_date",
+				value: "",
+				placeholder: "Departure Date",
+				required: true,
+			},
+			{
+				type: "text",
+				state: "delay_min",
+				value: "",
+				placeholder: "Delay Minute",
+				required: true,
+			},
+		],
+	},
+	{
+		id: 2,
+		eventTitle: "ETD",
+		formFields: [
+			{
+				type: "text",
+				state: "flight_number",
+				value: "",
+				placeholder: "Flight number",
+				required: true,
+			},
+			{
+				type: "date",
+				state: "departure_date",
+				value: "",
+				placeholder: "Departure Date",
+				required: true,
+			},
+		],
+	},
+	{
+		id: 3,
+		eventTitle: "DVC",
+		formFields: [
+			{
+				type: "text",
+				state: "flight_number",
+				value: "",
+				placeholder: "Flight number",
+				required: true,
+			},
+			{
+				type: "date",
+				state: "departure_date",
+				value: "",
+				placeholder: "Departure Date",
+				required: true,
+			},
+			{
+				type: "date",
+				state: "departure_date",
+				value: "",
+				placeholder: "Departure Date",
+				required: true,
+			},
+			{
+				type: "text",
+				state: "delay_min",
+				value: "",
+				placeholder: "Delay Minute",
+				required: true,
+			},
+		],
+	},
+	{
+		id: 4,
+		eventTitle: "STA",
+		formFields: [
+			{
+				type: "text",
+				state: "flight_number",
+				value: "",
+				placeholder: "Flight number",
+				required: true,
+			},
+			{
+				type: "date",
+				state: "departure_date",
+				value: "",
+				placeholder: "Departure Date",
+				required: true,
+			},
+		],
+	},
+	{
+		id: 5,
+		eventTitle: "DEP TERMINAL",
+		formFields: [
+			{
+				type: "text",
+				state: "flight_number",
+				value: "",
+				placeholder: "Flight number",
+				required: true,
+			},
+			{
+				type: "date",
+				state: "departure_date",
+				value: "",
+				placeholder: "Departure Date",
+				required: true,
+			},
+			{
+				type: "text",
+				state: "delay_min",
+				value: "",
+				placeholder: "Delay Minute",
+				required: true,
+			},
+		],
+	},
+	{
+		id: 6,
+		eventTitle: "OFF",
+		formFields: [
+			{
+				type: "text",
+				state: "flight_number",
+				value: "",
+				placeholder: "Flight number",
+				required: true,
+			},
+			{
+				type: "date",
+				state: "departure_date",
+				value: "",
+				placeholder: "Departure Date",
+				required: true,
+			},
+			{
+				type: "text",
+				state: "delay_min",
+				value: "",
+				placeholder: "Delay Minute",
+				required: true,
+			},
+		],
+	},
+	{
+		id: 7,
+		eventTitle: "ETA",
+		formFields: [
+			{
+				type: "text",
+				state: "flight_number",
+				value: "",
+				placeholder: "Flight number",
+				required: true,
+			},
+			{
+				type: "date",
+				state: "departure_date",
+				value: "",
+				placeholder: "Departure Date",
+				required: true,
+			},
+		],
+	},
+	{
+		id: 8,
+		eventTitle: "DVH",
+		formFields: [
+			{
+				type: "text",
+				state: "flight_number",
+				value: "",
+				placeholder: "Flight number",
+				required: true,
+			},
+			{
+				type: "text",
+				state: "delay_min",
+				value: "",
+				placeholder: "Delay Minute",
+				required: true,
+			},
+		],
+	},
+	{
+		id: 9,
+		eventTitle: "TAIL CHANGE",
+		formFields: [
+			{
+				type: "text",
+				state: "flight_number",
+				value: "",
+				placeholder: "Flight number",
+				required: true,
+			},
+			{
+				type: "date",
+				state: "departure_date",
+				value: "",
+				placeholder: "Departure Date",
+				required: true,
+			},
+			{
+				type: "text",
+				state: "delay_min",
+				value: "",
+				placeholder: "Delay Minute",
+				required: true,
+			},
+		],
+	},
+	{
+		id: 10,
+		eventTitle: "ARR TERMINAL",
+		formFields: [
+			{
+				type: "text",
+				state: "flight_number",
+				value: "",
+				placeholder: "Flight number",
+				required: true,
+			},
+			{
+				type: "text",
+				state: "delay_min",
+				value: "",
+				placeholder: "Delay Minute",
+				required: true,
+			},
+		],
+	},
+	{
+		id: 11,
+		eventTitle: "ON(TOUCHDOWN)",
+		formFields: [
+			{
+				type: "text",
+				state: "flight_number",
+				value: "",
+				placeholder: "Flight number",
+				required: true,
+			},
+			{
+				type: "date",
+				state: "departure_date",
+				value: "",
+				placeholder: "Departure Date",
+				required: true,
+			},
+			{
+				type: "text",
+				state: "delay_min",
+				value: "",
+				placeholder: "Delay Minute",
+				required: true,
+			},
+		],
+	},
+	{
+		id: 12,
+		eventTitle: "CANCEL",
+		formFields: [
+			{
+				type: "text",
+				state: "flight_number",
+				value: "",
+				placeholder: "Flight number",
+				required: true,
+			},
+			{
+				type: "date",
+				state: "departure_date",
+				value: "",
+				placeholder: "Departure Date",
+				required: true,
+			},
+			{
+				type: "text",
+				state: "delay_min",
+				value: "",
+				placeholder: "Delay Minute",
+				required: true,
+			},
+		],
+	},
+	{
+		id: 13,
+		eventTitle: "TCH",
+		formFields: [
+			{
+				type: "text",
+				state: "flight_number",
+				value: "",
+				placeholder: "Flight number",
+				required: true,
+			},
+			{
+				type: "date",
+				state: "departure_date",
+				value: "",
+				placeholder: "Departure Date",
+				required: true,
+			},
+			{
+				type: "text",
+				state: "delay_min",
+				value: "",
+				placeholder: "Delay Minute",
+				required: true,
+			},
+		],
+	},
+	{
+		id: 14,
+		eventTitle: "DEP GATE",
+		formFields: [
+			{
+				type: "text",
+				state: "flight_number",
+				value: "",
+				placeholder: "Flight number",
+				required: true,
+			},
+			{
+				type: "date",
+				state: "departure_date",
+				value: "",
+				placeholder: "Departure Date",
+				required: true,
+			},
+			{
+				type: "text",
+				state: "delay_min",
+				value: "",
+				placeholder: "Delay Minute",
+				required: true,
+			},
+		],
+	},
+	{
+		id: 15,
+		eventTitle: "BELT",
+		formFields: [
+			{
+				type: "text",
+				state: "flight_number",
+				value: "",
+				placeholder: "Flight number",
+				required: true,
+			},
+			{
+				type: "date",
+				state: "departure_date",
+				value: "",
+				placeholder: "Departure Date",
+				required: true,
+			},
+			{
+				type: "text",
+				state: "delay_min",
+				value: "",
+				placeholder: "Delay Minute",
+				required: true,
+			},
+		],
+	},
+	{
+		id: 16,
+		eventTitle: "IN(ATA)",
+		formFields: [
+			{
+				type: "text",
+				state: "flight_number",
+				value: "",
+				placeholder: "Flight number",
+				required: true,
+			},
+			{
+				type: "date",
+				state: "departure_date",
+				value: "",
+				placeholder: "Departure Date",
+				required: true,
+			},
+			{
+				type: "text",
+				state: "delay_min",
+				value: "",
+				placeholder: "Delay Minute",
+				required: true,
+			},
+		],
+	},
+	{
+		id: 17,
+		eventTitle: "DELETE",
+		formFields: [
+			{
+				type: "text",
+				state: "flight_number",
+				value: "",
+				placeholder: "Flight number",
+				required: true,
+			},
+			{
+				type: "date",
+				state: "departure_date",
+				value: "",
+				placeholder: "Departure Date",
+				required: true,
+			},
+			{
+				type: "text",
+				state: "delay_min",
+				value: "",
+				placeholder: "Delay Minute",
+				required: true,
+			},
+		],
+	},
+	{
+		id: 18,
+		eventTitle: "STN",
+		formFields: [
+			{
+				type: "text",
+				state: "flight_number",
+				value: "",
+				placeholder: "Flight number",
+				required: true,
+			},
+			{
+				type: "date",
+				state: "departure_date",
+				value: "",
+				placeholder: "Departure Date",
+				required: true,
+			},
+			{
+				type: "text",
+				state: "delay_min",
+				value: "",
+				placeholder: "Delay Minute",
+				required: true,
+			},
+		],
+	},
+	{
+		id: 19,
+		eventTitle: "ARR GATE",
+		formFields: [
+			{
+				type: "text",
+				state: "flight_number",
+				value: "",
+				placeholder: "Flight number",
+				required: true,
+			},
+			{
+				type: "date",
+				state: "departure_date",
+				value: "",
+				placeholder: "Departure Date",
+				required: true,
+			},
+			{
+				type: "text",
+				state: "delay_min",
+				value: "",
+				placeholder: "Delay Minute",
+				required: true,
+			},
+		],
+	},
+	{
+		id: 20,
+		eventTitle: "OVERFLY",
+		formFields: [
+			{
+				type: "text",
+				state: "flight_number",
+				value: "",
+				placeholder: "Flight number",
+				required: true,
+			}
+		],
+	},
+];
