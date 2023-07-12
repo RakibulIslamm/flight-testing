@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { chromium, webkit } from "playwright";
+import { chromium } from "playwright";
 
 export async function POST(request: Request) {
     const res = await request.json();
@@ -8,7 +8,7 @@ export async function POST(request: Request) {
     const isHeadless = params.get('headless') === 'true' ? true : false;
 
     try {
-        const browser = await webkit.launch({ headless: isHeadless });
+        const browser = await chromium.launch({ headless: isHeadless });
         const page = await browser.newPage();
 
         await page.goto("https://google.com");
